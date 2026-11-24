@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Profile | DCIT 21A</title>
+
+    <!-- Connect external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        
+    <div class="gradient-bg">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- header -->
+    <header>
+        <h1>Francine's Corner</h1>
+        <p>Carpe Diem.</p>
+    </header>
+
+    <!-- NAVI -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies and Interests</a>
+        <a href="#films">Film Ratings</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+    <main class="container">
+
+        <!-- ABOUT -->
+        <section id="about" class="section-box">
+
+            <h2>About Me</h2>
+
+            <img src="pretty.jpg" alt="Me" class="profile-image">
+
+            <p>
+                Hai! My name is Francine Uzziah M. Nicolas.
+                I am a Bachelor of Science in Computer Science student.
+                I am interested in technology, programming, arts, literature, and
+                learning new skills and and
+            </p>
+
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section-box">
+
+            <h2>Educational Background</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Junior High School</h3>
+                    <p>Cavite Christian School</p>
+                    <p>2022 - 2024</p>
+                </div>
+
+                <div class="card">
+                    <h3>Senior High School</h3>
+                    <p>University of Perpetual Help System Dalta</p>
+                    <p>2024 - 2026</p>
+                </div>
+
+                <div class="card">
+                    <h3>College</h3>
+                    <p>Cavite State University</p>
+                    <p>BS Computer Science</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section id="hobbies" class="section-box">
+
+            <h2>My Hobbies and Interests</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Reading</h3>
+                    <p>
+                        I enjoy reading books and exploring different stories and ideas. I love light novels and I read manhwas, manhuas, and mangas a lot!
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Programming</h3>
+                    <p>
+                        I am keeping up with my programming skills! Coding is fun!
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Editing</h3>
+                    <p>
+                        I enjoy editing videos for fun and post it on my socials. 
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Movies</h3>
+                    <p>
+                        Are you an avid movie watcher? Me too! Ask me for recommendations!
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FILM RATINGS -->
+        <section id="films" class="section-box">
+
+            <h2>Film Ratings</h2>
+
+            <p>
+                Here are some of my favorite films and their ratings!
+            </p>
+
+            <h3>List of Films</h3>
+
+            <table>
+
+                <tr>
+                    <th>Title</th>
+                    <th>Rating</th>
+                </tr>
+
+                <tr>
+                    <td>Love Through a Prism</td>
+                    <td>10/10</td>
+                </tr>
+
+                <tr>
+                    <td>NANA</td>
+                    <td>9.9/10</td>
+                </tr>
+
+                <tr>
+                    <td>Sparks of Tommorow</td>
+                    <td>10/10</td>
+                </tr>
+
+                <tr>
+                    <td>The Lord of Mysteries</td>
+                    <td>10/10 (haven't continued watching but!!)</td>
+                </tr>
+                <tr>
+                    <td>The Grandmaster of Demonic Cultivation</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Thousand Autumns</td>
+                    <td>10/10</td>
+                </tr>
+
+                <tr>
+                    <td>Crimson Peak</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Sweeney Todd: The Demon Barber of Fleet Street</td>
+                    <td>8/10</td>
+                </tr>
+
+                <tr>
+                    <td>Goth</td>
+                    <td>7/10</td>
+                </tr>
+                <tr>
+                    <td>The Addams Family</td>
+                    <td>10/10</td>
+                </tr>
+
+                <tr>
+                    <td>The Picture of Dorian Gray</td>
+                    <td>7.5/10</td>
+                </tr>
+
+                <tr>
+                    <td>A Series Of Unfortunate Events</td>
+                    <td>10/10</td>
+                </tr>
+
+                <tr>
+                    <td>Alita: Battle Angel</td>
+                    <td>10/10 (in need of part 2)</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section-box">
+
+            <h2>Send Word Unto Me</h2>
+
+            <form>
+
+                <label for="name">Thy Name:</label>
+                <input type="text" id="name" name="name"
+                    placeholder="Enter your name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email">
+
+                <label for="course">Course:</label>
+
+                <select id="course" name="course">
+                    <option value="BSCS">BS Computer Science</option>
+                    <option value="BSIT">BS Information Technology</option>
+                    <option value="BSIE">BS Industrial Engineering</option>
+                    <option value="BSCE">BS Computer Engineering</option>
+                    <option value="Others">Others</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"
+                    rows="4"
+                    placeholder="Write your message here"></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Francine Nicolas | DCIT 21A</p>
+        <p>Body in abyss, heart in paradise.</p>
+    </footer>
+
+</body>
+</html>
